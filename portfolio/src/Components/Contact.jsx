@@ -10,18 +10,6 @@ const Contact = () => {
         <div className="newBox">
           <div>
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQEG2kn4Gu47AQ/profile-displayphoto-shrink_800_800/0/1638394995144?e=1672272000&v=beta&t=zUhnz68dNelppU8DhkC5mzS2S-pIuKI0mTBpnjn1joQ"
-              alt=""
-              className="contImg"
-            />
-          </div>
-          <div className="comp">Tata-1mg</div>
-          <div className="par11">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </div>
-          <div className="connection">LinkedIn Connection</div>
-          <div>
-            <img
               src="./Img/testimonial-img1@2x.png"
               alt=""
               className="contImg1"

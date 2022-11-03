@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div class = "section1">
             <div class = "tdiv">
-                <img src = './Img/profess2.gif' alt = '' className='img2' />
+                <img src = './Images/Banner1.png' alt = '' className='img2' />
                 <div id = "cont1">
                     <div id = "about">About Me</div>
                     <div id = "line"></div>

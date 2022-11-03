@@ -5,31 +5,17 @@ import './Style.css'
 const Home = () => {
   return (
     <div>
-        <div class = "fdiv">
-            <div class = "main1">
-                <div id = "name">Arpana kashyap</div>
-            </div>
-            <div id = "nav">
-                <nav>
-                    <NavLink to='/' className= "hommie">Home</NavLink>
-                    <NavLink to='/about' className= "hommie">About</NavLink>
-                    <NavLink to='/portfolio' className= "hommie">Portfolio</NavLink>
-                    <NavLink to='/resume' className= "hommie">Resume</NavLink>
-                    <NavLink to='/contact' className= "hommie">Contact</NavLink>
-                </nav>
-            </div>
-        </div>
         <div class = "sdiv">
             <div class = "one">
                 <div id = "name1">Hi, I am Arpana kashyap</div>
                 <div id = "role">A Front-end Developer</div>
                 <div id = "note">Get ready to turn ideas into reality</div>
-                <NavLink to='/resume' className= "button1">Hire Me</NavLink>
-                <NavLink to='/resume' className= "button2">Get Resume</NavLink>
+                <NavLink to='/contact' className="button1">Hire Me</NavLink>
+                <a href = "https://drive.google.com/file/d/1atrshTQoaJUzEsVvzU1qLYhxYFZHVVIR/view?usp=share_link" target="blank" className='button2'>Get Resume</a>
                 
             </div>
             <div class = "two">
-                <img src = './Img/profess1.jpeg' alt = '' className='img1' />
+                <img src = './Images/Banner1.png' alt = '' className='img1' />
             </div>
         </div>
         <section class = "banner">

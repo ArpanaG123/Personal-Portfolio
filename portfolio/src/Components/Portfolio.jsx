@@ -1,58 +1,45 @@
 import React from 'react'
 import './Style.css'
-import { details } from '../Details'
-import Card from './Card'
+
  
 const Portfolio = () => {
    return (
     <div class = "section2">
         <h1 className='port'>My Portfolio</h1>
         <div className="line2"></div>
-        <div className='sectionPort'>
-            {
-                details.map((value) => {
-                    return (
-                        <>
-                        <Card 
-                        image = {value.image}
-                        Title1 = {value.Title1}
-                        Title2 = {value.Title2}
-                        Title3 = {value.Title3}
-                        Title4 = {value.Title4}
-                        Title5 = {value.Title5}
-                        Title6 = {value.Title6}
-                        Technology1 = {value.Technology1}
-                        Technology2 = {value.Technology2}
-                        Technology3 = {value.Technology3}
-                        Technology4 = {value.Technology4}
-                        Technology5 = {value.Technology5}
-                        Technology6 = {value.Technology6}
-                        hostUrl1 = {value.hostUrl1}
-                        hostUrl2 = {value.hostUrl2}
-                        hostUrl3 = {value.hostUrl3}
-                        hostUrl4 = {value.hostUrl4}
-                        hostUrl5 = {value.hostUrl5}
-                        hostUrl6 = {value.hostUrl6}/>
-
-                        </>
-                    )
-                })
-            }
-
+        <div className='Imgdiv1'>
+        <a href = 'https://arpanag123.github.io/Project1_BasicsHTML/FirstP.html' target= "blank">
+            <div className='divs1'><img  src = './Images/Snip20221023_1.png' alt = '' className='pics1'/></div>
+        </a>
+        <a href = 'https://arpanag123.github.io/Project2_TODO/Index1.html' target= 'blank' >
+            <div className='divs2'>
+                <img  src = './Images/Snip20221023_6.png' alt = '' className='pics2'/>
+            </div>
+        </a>
+        <a href = 'https://arpanag123.github.io/Project3-Todo-mobile/Index1.html' target= 'blank' >
+            <div className='divs3'>
+                <img  src = './Images/snip20221023_7.png' alt = '' className='pics3'/>
+            </div>
+        </a>
         </div>
-        <div className='sectionNew'>
-            {
-                details.map((value) => {
-                    return (
-                        <>
-                        <Card 
-                        image1 = {value.image1}/>
-                        </>
-                    )
-                })
-            }
-
+        <div className='Imgdiv2'>
+        <a href = 'https://arpanag123.github.io/Project4_Digital-clock/Index.html' target= 'blank' >
+            <div className='divs4'>
+                <img  src = './Images/snip20221023_8.png' alt = '' className='pics4'/>
+            </div>
+        </a>
+        <a href = 'https://arpanag123.github.io/Project5---Todo-App/Index.html' target= 'blank' >
+            <div className='divs5'>
+                <img  src = './Images/snip20221023_9.png' alt = '' className='pics5'/>
+            </div>
+        </a>
+        <a href = 'https://arpana-reactblog-backendapp.netlify.app/' target= 'blank' >
+            <div className='divs6'>
+                <img  src = './Images/Snip20221023_10.png' alt = '' className='pics6'/>
+            </div>
+        </a>
         </div>
+        
     </div>
    )
 }
