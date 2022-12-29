@@ -23,7 +23,7 @@ const Portfolio = () => {
         </a>
         </div>
         <div className='Imgdiv2'>
-        <a href = 'https://arpanag123.github.io/Project4_Digital-clock/Index.html' target= 'blank' >
+        <a href = 'https://arpanag123.github.io/Digital-Clock/Index.html' target= 'blank' >
             <div className='divs4'>
                 <img  src = './Images/snip20221023_8.png' alt = '' className='pics4'/>
             </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <img  src = './Images/snip20221023_9.png' alt = '' className='pics5'/>
             </div>
         </a>
-        <a href = 'https://arpana-reactblog-backendapp.netlify.app/' target= 'blank' >
+        <a href = 'https://reactblog-backendapp-deployedversion.netlify.app/' target= 'blank' >
             <div className='divs6'>
                 <img  src = './Images/Snip20221023_10.png' alt = '' className='pics6'/>
             </div>
